@@ -1,7 +1,7 @@
 // 1. Next.js ይህንን API በ Build ሰዓት እንዳይነካው የሚከለክሉ ጥብቅ መመሪያዎች
 export const dynamic = "force-dynamic";
 export const fetchCache = "force-no-store";
-
+export const dynamic = 'force-dynamic';
 import { NextResponse } from "next/server";
 import { supabaseAdmin } from "@/lib/supabaseAdmin"; 
 
